@@ -44,6 +44,10 @@
                             {{ partial "information.html" . }}
                             {{ end }}
 
+                            {{ if .Site.Params.skills.enable }}
+                            {{ partial "skills_full.html" . }}
+                            {{ end }}
+
                         </div><!--//resume-main-->
 
                         <!-- {{ partial "sidebar.html" . }} -->
