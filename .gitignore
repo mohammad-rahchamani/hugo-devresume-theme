@@ -1,3 +1,7 @@
 public
 
 theme
+
+.DS_Store
+.AppleDouble
+.LSOverride
